@@ -59,3 +59,34 @@ const myFunction =  function (){
 
 
 console.log(typeof hero);
+
+//-------------------------------------------------MEMORY CONCPACT----------------------------------
+
+// STACK (PRIMITIVE), HEAP (NON-PRIMITIVE)
+
+let myLaptopName = "Nitro"
+
+
+let anotherLaptopName = myLaptopName
+anotherLaptopName = "gaurav's pc"
+
+console.log(myLaptopName);
+console.log(anotherLaptopName);
+// above all in stack memory
+
+
+//-----HEAP-------
+
+let userOne = {
+    email: "gaurav@google.com",
+    key: "gaurav123"
+}
+
+let userTwo = userOne
+
+userTwo.email = "raj@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
