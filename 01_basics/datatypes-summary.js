@@ -28,7 +28,7 @@ const anotherId = Symbol('123')
 console.log(id === anotherId);
 
 
-const 
+const bigNumber = 987654321654987325243541n
 
 
 
@@ -58,4 +58,4 @@ const myFunction =  function (){
 }
 
 
-console.log(typeof );
+console.log(typeof hero);
