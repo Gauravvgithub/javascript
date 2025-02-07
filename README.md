@@ -1,3 +1,3 @@
 JavaScript
 
-From basics to advance!!
+From basics to advance
