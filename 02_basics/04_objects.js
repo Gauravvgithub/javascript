@@ -52,16 +52,40 @@ const user = [
     }
 ]
 user[1].id
-console.log(metaUser);
+// console.log(metaUser);
 
-console.log(Object.keys(metaUser));
-console.log(Object.values(metaUser));
-console.log(Object.entries(metaUser));
+// console.log(Object.keys(metaUser));
+// console.log(Object.values(metaUser));
+// console.log(Object.entries(metaUser));
 
-console.log(metaUser.hasOwnProperty('isLoggedIn'));
-console.log(metaUser.hasOwnProperty('isLogged'));
+// console.log(metaUser.hasOwnProperty('isLoggedIn'));
+// console.log(metaUser.hasOwnProperty('isLogged'));
 
+//--------------- De-Structure of Objects -------------------//
 
+const course = {
+    coursename: "javascript",
+    price: "999",
+    coureInstructor: "Chai aur Code"
+}
 
+// coure.coureInstructor
+const {coureInstructor: instructor } = course
 
+console.log(instructor);
+
+//
+
+//JSON
+
+// {
+//     "name": "gaurav",
+//     "coursename": "JavaScript",
+//     "price": "free"
+// }
+[
+    {},
+    {},
+    {}
+]
 
