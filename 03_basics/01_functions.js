@@ -41,7 +41,39 @@ function loginUserMessage(username = "kuch toh naam hoga apka isliye apne"){
 }
 
 // console.log(loginUserMessage("Gaurav"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
 
+//--------------
+
+//addtocart
+
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200,400,500,600));
+
+const user = {
+    username:"gaurav",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+
+// handleObject({
+//     username:"raj",
+//     price:199
+// })
+
+const myNewArray = [200,300,500,700]
+
+function returnSecondValue (getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([200,300,500,700]));
 
 
