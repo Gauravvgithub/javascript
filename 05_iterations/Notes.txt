@@ -1,0 +1,5 @@
+map - map returns conditions or a performs operations
+
+filter - while filte returns or works on true and false conditions
+
+reduce - 
